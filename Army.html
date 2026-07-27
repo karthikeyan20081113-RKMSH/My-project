@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Indian Army | Courage and Pride</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#f5f5f5;
+}
+
+/* Navbar */
+
+.navbar{
+background:rgba(0,0,0,.8);
+backdrop-filter:blur(10px);
+}
+
+.navbar-brand{
+font-size:28px;
+font-weight:bold;
+color:#ff9933!important;
+}
+
+.nav-link{
+color:white!important;
+font-weight:500;
+margin-left:20px;
+transition:.3s;
+}
+
+.nav-link:hover{
+color:#ff9933!important;
+}
+
+/* Hero */
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),
+url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+color:white;
+}
+
+.hero h1{
+font-size:70px;
+font-weight:bold;
+animation:fadeIn 2s;
+}
+
+.hero p{
+font-size:22px;
+margin-top:20px;
+}
+
+.btn-army{
+background:#ff9933;
+color:white;
+padding:12px 35px;
+font-size:20px;
+border:none;
+margin-top:20px;
+transition:.4s;
+}
+
+.btn-army:hover{
+background:green;
+transform:scale(1.05);
+}
+
+/* Sections */
+
+section{
+padding:80px 0;
+}
+
+.title{
+text-align:center;
+margin-bottom:50px;
+}
+
+.title h2{
+font-weight:bold;
+font-size:40px;
+color:#1b5e20;
+}
+
+.card{
+border:none;
+transition:.4s;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card i{
+font-size:55px;
+color:#ff9933;
+margin-bottom:20px;
+}
+
+/* Counter */
+
+.counter{
+background:linear-gradient(45deg,#1b5e20,#2e7d32);
+color:white;
+}
+
+.counter h1{
+font-size:55px;
+}
+
+/* Gallery */
+
+.gallery img{
+height:250px;
+object-fit:cover;
+transition:.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.08);
+}
+
+/* Quote */
+
+.quote{
+background:#ff9933;
+color:white;
+text-align:center;
+padding:70px;
+font-size:30px;
+font-style:italic;
+}
+
+/* Contact */
+
+.contact{
+background:#263238;
+color:white;
+}
+
+.contact i{
+font-size:30px;
+color:#ff9933;
+}
+
+footer{
+background:black;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+@keyframes fadeIn{
+
+from{
+opacity:0;
+transform:translateY(50px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+.reveal{
+opacity:0;
+transform:translateY(80px);
+transition:1s;
+}
+
+.reveal.active{
+opacity:1;
+transform:translateY(0);
+}
+
+</style>
+
+</head>
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg fixed-top">
+
+<div class="container">
+
+<a class="navbar-brand" href="#">🇮🇳 Indian Army</a>
+
+<button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- Hero -->
+
+<section class="hero">
+
+<div class="container text-center">
+
+<h1>INDIAN ARMY</h1>
+
+<p>
+"Service Before Self"
+</p>
+
+<p>
+The Pride of India • Courage • Honour • Sacrifice
+</p>
+
+<button class="btn btn-army">
+Explore More
+</button>
+
+</div>
+
+</section>
+
+<!-- About -->
+
+<section id="about" class="reveal">
+
+<div class="container">
+
+<div class="title">
+
+<h2>About Indian Army</h2>
+
+</div>
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80"
+class="img-fluid rounded shadow">
+
+</div>
+
+<div class="col-lg-6">
+
+<h3 class="text-success mb-4">
+
+Nation First, Always First
+
+</h3>
+
+<p>
+
+The Indian Army is the land-based branch of the Armed Forces of India.
+It protects the nation's sovereignty, secures borders, assists during
+natural disasters, and participates in United Nations peacekeeping missions.
+
+The Army is known for bravery, discipline, professionalism, and commitment
+to national service.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Mission -->
+
+<section id="mission" class="bg-light reveal">
+
+<div class="container">
+
+<div class="title">
+
+<h2>Our Values</h2>
+
+</div>
+
+<div class="row">
+
+<div class="col-md-4">
+
+<div class="card p-4 text-center">
+
+<i class="bi bi-shield-fill-check"></i>
+
+<h4>Integrity</h4>
+
+<p>
+Upholding honour, discipline and commitment to duty.
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card p-4 text-center">
+
+<i class="bi bi-heart-fill"></i>
+
+<h4>Service</h4>
+
+<p>
+Serving the nation before self with unwavering dedication.
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card p-4 text-center">
+
+<i class="bi bi-award-fill"></i>
+
+<h4>Bravery</h4>
+
+<p>
+Facing every challenge with courage and determination.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Counter -->
+
+<section class="counter">
+
+<div class="container">
+
+<div class="row text-center">
+
+<div class="col-md-4">
+
+<h1 class="count" data-target="12">0</h1>
+
+<h4>Operational Commands</h4>
+
+</div>
+
+<div class="col-md-4">
+
+<h1 class="count" data-target="100">0</h1>
+
+<h4>Years of Service</h4>
+
+</div>
+
+<div class="col-md-4">
+
+<h1 class="count" data-target="24">0</h1>
+
+<h4>Hours Protection</h4>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Gallery -->
+
+<section id="gallery" class="gallery reveal">
+
+<div class="container">
+
+<div class="title">
+
+<h2>Gallery</h2>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80"
+class="img-fluid rounded shadow">
+
+</div>
+
+<div class="col-md-4">
+
+<img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80"
+class="img-fluid rounded shadow">
+
+</div>
+
+<div class="col-md-4">
+
+<img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80"
+class="img-fluid rounded shadow">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Quote -->
+
+<section class="quote">
+
+"Sleep Peacefully At Your Homes Because Indian Soldiers
+Are Guarding The Borders."
+
+</section>
+
+<!-- Contact -->
+
+<section id="contact" class="contact">
+
+<div class="container text-center">
+
+<h2 class="mb-5">Contact</h2>
+
+<div class="row">
+
+<div class="col-md-4">
+
+<i class="bi bi-geo-alt-fill"></i>
+
+<h5 class="mt-3">India</h5>
+
+</div>
+
+<div class="col-md-4">
+
+<i class="bi bi-envelope-fill"></i>
+
+<h5 class="mt-3">info@indianarmy.in</h5>
+
+</div>
+
+<div class="col-md-4">
+
+<i class="bi bi-telephone-fill"></i>
+
+<h5 class="mt-3">1800-000-000</h5>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Indian Army Tribute Website | Jai Hind 🇮🇳
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+// Counter
+
+const counters=document.querySelectorAll('.count');
+
+counters.forEach(counter=>{
+
+const update=()=>{
+
+const target=+counter.getAttribute('data-target');
+
+const count=+counter.innerText;
+
+const increment=target/100;
+
+if(count<target){
+
+counter.innerText=Math.ceil(count+increment);
+
+setTimeout(update,20);
+
+}else{
+
+counter.innerText=target;
+
+}
+
+}
+
+update();
+
+});
+
+// Scroll Animation
+
+window.addEventListener("scroll",()=>{
+
+document.querySelectorAll(".reveal").forEach(sec=>{
+
+const top=sec.getBoundingClientRect().top;
+
+const height=window.innerHeight;
+
+if(top<height-100){
+
+sec.classList.add("active");
+
+}
+
+});
+
+});
+
+</script>
+
+</body>
+</html>
